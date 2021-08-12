@@ -1,0 +1,190 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: 300;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 3.625rem 3.125rem;
+}
+
+.head-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1.5rem;
+  width: 50%;
+}
+
+.head-container p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.head-container p:nth-child(3) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+#img-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  -webkit-box-shadow: 0px 0px 16px 8px black;
+          box-shadow: 0px 0px 16px 8px black;
+  display: block;
+}
+
+#tribute-info {
+  line-height: 1.6;
+}
+
+.early-life {
+  background-color: #424242;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.early-life > div {
+  width: 31.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.teaching {
+  background-color: #757575;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.teaching > div {
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.military {
+  background-color: #E0E0E0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: black;
+}
+
+.military > div {
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.end {
+  background-color: #232323;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.end > div {
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-container {
+  background-color: whitesmoke;
+  color: black;
+  padding: 1rem 1rem;
+}
+
+.link-container p {
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 925px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .head-container p:nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .head-container p:nth-child(3) {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .head-container {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .head-container * {
+    text-align: center;
+  }
+  figcaption {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head-container {
+    padding: 0;
+    padding-bottom: 1.5rem;
+  }
+  .early-life > div, .teaching > div, .military > div, .end > div {
+    width: 90%;
+  }
+  .flex {
+    margin: 3rem 5%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
